@@ -1,0 +1,24 @@
+.partners {
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .partners__item {
+        margin-top: 70px;
+        display: flex;
+        align-items: row;
+        img {
+            max-width: 80px;
+            max-height: 80px;
+        }
+        .partners__text {
+            padding-left: 40px;
+        }
+        .partners__name {
+            font-size: 26px;
+        }
+        .partners__descr {
+            font-size: 15px;
+            color: grey;
+        }
+    }
+}

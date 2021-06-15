@@ -1,0 +1,46 @@
+.offer {
+    min-height: 100vh;
+    position: relative;
+    padding-top: 50px;
+    &__wrapper {
+        margin-top: 20px;
+    }
+    &__item {
+        position: relative;
+        margin: 0 auto;
+        max-width: 997px;
+        height: 499px;
+        margin-bottom: 25px;
+        &_1 {
+            background: url("../../img/offer/Group1.jpg") center (center / cover) no-repeat;
+        }
+        &_2 {
+            background: url("../../img/offer/Group2.jpg") center (center / cover) no-repeat;
+
+        }
+        &_3 {
+            background: url("../../img/offer/Group3.jpg") center (center / cover) no-repeat;
+        }
+    }
+    &__title {
+        font-size: 30px;
+        line-height: 54px;
+        color: #FFFFFF;
+    }
+    &__descr {
+        font-size: 20px;
+        line-height: 36px;
+        color: #ffff;
+        margin-top: 35px;
+    }
+    &__inner {
+        max-width: 850px;
+        position: relative;
+        top: 41px;
+        left: 58px;
+        &_2 {
+           text-align: right;
+           left: 90px; 
+        }
+    }
+}

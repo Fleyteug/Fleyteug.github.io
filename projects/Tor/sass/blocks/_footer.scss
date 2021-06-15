@@ -1,0 +1,23 @@
+footer {
+    width: 100%;
+    min-height: 75px;
+    background-color: black;
+    opacity: 0.9;
+    .footer__main {
+        margin: 0 auto;
+        padding-top: 24px;
+        width: 420px;
+        display: flex;
+        justify-content: space-between;
+        .vl_m {
+            border-left: 3px solid white;
+            height: 19px;
+            position: relative;
+            margin-top: 3px;
+        }
+        .footer__title {
+            font-size: 14px;
+            color: white;
+        }
+    }
+}

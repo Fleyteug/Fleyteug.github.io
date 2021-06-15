@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3f51a7eb62.js" crossorigin="anonymous"></script>
+    <title>FleytEug's web-development</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="#" class="header__logo"></a>
+            <div class="header__menu menu">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a href="#about" class="menu__link">About</a></li>
+                        <li><a href="#technologies" class="menu__link">What do I use</a></li>
+                        <li><a href="#portfolio" class="menu__link">Portfolio</a></li>
+                        <li><a href="#contacts" class="menu__link">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <section class="promo">
+        <div class="container">
+            <h2 class="title title__up">{ home }</h2>
+            <div class="promo__wrapper">
+                <div class="promo__text">
+                    <h2 class="section__text section__text_first"> Hi! My name is Eugene</h2>
+                    <h1 class="section__text section__text_main">I am front-end developer <br> from Russia <span class="blink"> | </span></h1>
+                    <div class="btns__block">
+                        <!-- <button class="btn__main"><a href="#portfolio">Portfolio</a></button> -->
+                        <a href="#portfolio" class="btn__main">Portfolio</a>
+                        <a href="#contacts" class="btn__main">Contact Me</a>
+                        
+                    </div>
+                </div>
+                <div class="promo__img">
+                    <img src="img/me.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="title title__up">{ about }</h2>
+            <div class="about__wrapper">
+                <div class="about__img">
+                    <img src="img/sold1.png" alt="">
+                </div>
+                <div class="about__text">
+                    <h2 class="section__text section__text_first"> I was in a military service in the past so I know what is the meaning of successful mission completeion right in time.</h2>
+                    <div class="section__text section__text_second"> Now I am excited to accomplish different tasks in Web development by creating web sites for my Customers. <span class="blink"> | </span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="technologies" id="technologies">
+        <div class="container">
+            <h2 class="title">{ Technologies which I use }</h2>
+            <div class="technologies__wrapper">
+                <div class="technologies__item">
+                    <div class="item_image"><img src="icons/technologies/html.svg" alt=""></div>
+                    <h3 class="item_title">HTML</h3>
+                    <div class="item_descr">To build a carcass of your Website</div>
+                </div>
+                <div class="technologies__item">
+                    <div class="item_image"><img src="icons/technologies/css.svg" alt=""></div>
+                    <h3 class="item_title">CSS</h3>
+                    <div class="item_descr">To make a stylization of your Website</div>
+                </div>
+                <div class="technologies__item">
+                    <div class="item_image"><img src="icons/technologies/js1.svg" alt=""></div>
+                    <h3 class="item_title">JavaScript</h3>
+                    <div class="item_descr">To create an interactivity on your project</div>
+                </div>
+                <div class="technologies__item">
+                    <div class="item_image"><img src="icons/technologies/wordpress1.svg" alt=""></div>
+                    <h3 class="item_title">WordPress</h3>
+                    <div class="item_descr">To organize the editing of your Website's content</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="title">{ Portfolio }</h2>
+            <div class="portfolio__wrapper">
+                <!-- <div class="btns__block-toggler">
+                    <button class="btn_toggler">Practice projects</button>
+                    <button class="btn_toggler">Real projects</button>
+                </div> -->
+                <div class="portfolio__container">
+                    <div class="portfolio__inner">
+                        <a href="projects/pulse/index.html"><img src="img/port/pulse.jpg" alt="pulse website" class="img_bg"></a>
+                    </div>
+                    <div class="portfolio__inner">
+                        <a href="projects/Innovated/index.html"><img src="img/port/innovated.jpg" alt="innovated website" class="img_bg"></a>
+                    </div>
+                    <div class="portfolio__inner">
+                        <a href="projects/Tor/index.html"><img src="img/port/Tor.jpg" alt="Tor website" class="img_bg"></a>
+                    </div>
+                    <div class="portfolio__inner">
+                        <a href="projects/blank222/index.html"><img src="img/port/blank.jpg" alt="blank website" class="img_bg"></a>
+                    </div>
+                    <div class="portfolio__inner">
+                        <a href="projects/barber/index.html"><img src="img/port/barber.jpg" alt="barber website" class="img_bg"></a>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <section class="contact" id="contacts">
+        <div class="container">
+            <h2 class="title">{ How to contact }</h2>
+            <div class="contact__wrapper">
+                <div class="contact__text">
+                    <h2 class="contact__text contact__text_first"> if You are interested in cooperation or you have some advices how to improve my projects</h2>
+                    <h2 class="contact__text contact__text_second"> please contact me by filling following form and I will answer your email <span class="blink"> | </span></h2>
+                </div>
+                <form action="#" method="POST">
+                    <ul>
+                        <li>
+                            <label for="name">Your name</label>
+                            <input type="text" required id="name" name="name">
+                        </li>
+                        <li>
+                            <label for="mail">Your E-mail</label>
+                            <input type="email" required id="mail" name="email">
+                        </li>
+                        <li>
+                            <label for="msg">Your message</label>
+                            <textarea id="msg" name="message" class="message"></textarea>
+                        </li>
+                    </ul>
+                    <div class="submit__btns">
+                        <div class="checkbox__wrapper">
+                            <input type="checkbox" required> <span class="policy">I agree with <a href="privacy.html">the confidential policy of your website</a> </span>
+                        </div>
+                        <button type="submit" class="message_submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__text">You can find me in following social networks</div>
+                <div class="footer__networks">
+                    <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
+                    <a href="https://www.facebook.com/eugen.fortyone.1"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://instagram.com/fleyteug"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://github.com/Fleyteug"><i class="fab fa-github-square"></i></a>
+                </div>
+                <div class="footer__end">
+                    <a href="#" class="footer__end_link">FleytEug 2021</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="overlay _hidden" id="formsuccess">
+        <div class="popup__thx _hidden">
+            <div class="popup__subtitle-thanks">Thank you for your interest!</div>
+            <div class="popup__descr-thanks">I will answer your message as soon as possible</div>
+            <div data-closethx class="popup__close">&times;</div>
+        </div>
+    </div>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

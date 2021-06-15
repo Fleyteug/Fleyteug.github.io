@@ -1,0 +1,263 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .offer {
+        &__inner {
+            width: 550px;
+        }
+    }
+}
+///////////////////////////
+@media (max-width: 992px) {
+    .logo {
+        &__img {
+            width: 35px;
+            height: 35px;
+        }
+        &__wrapper {
+            left: 80px;
+        }
+    }
+    .container {
+        max-width: 720px;
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .consultation {
+        .title_left {
+            font-size: 50px;
+        }
+        .consultation__descr {
+            font-size: 30px;
+        }
+    }
+}
+///////////////////////////
+@media (max-width: 768px) {
+    .logo {
+        .company__name {
+            font-size: 17px;
+            position: relative;
+            left: 11px;
+        }
+    }
+    .container {
+        max-width: 540px;
+    }
+    .promo {
+        &__wrapper {
+            top: 65px;
+        }
+        .title {
+            width: 375px;
+            font-size: 24px;
+        }
+    }
+    .offer {
+        .offer__item {
+            height: 380px;
+        }
+        .offer__title {
+            font-size: 23px;
+            line-height: 35px;
+        }
+        .offer__descr {
+            font-size: 15px;
+            line-height: 25px;
+        }
+        .offer__inner {
+            width: 425px;
+            left: 19px;
+            &_2 {
+                left: 65px;
+            }
+        }
+    }
+    .consultation {
+        .title_left {
+            font-size: 40px;
+        }
+        .consultation__descr {
+            font-size: 22px;
+        }
+        .feed-form {
+            width: 570px;
+            label {
+                width: 210px;
+            }
+            input {
+                width: 350px;
+            }
+        }
+        .consultation__triggers {
+            display: flex;
+            margin-top: 20px;
+            .consultation__policy {
+                .policy {
+                    width: 15px;
+                }
+            }
+        }
+    }
+}
+///////////////////////////
+@media (max-width: 576px) {
+    .logo {
+        &__img {
+            width: 30px;
+            height: 25px;
+        }
+        &__wrapper {
+            width: 120px;
+            left: 70px;
+        }
+        .company__name {
+            font-size: 12px;
+            left: 0px;
+        }
+        .company__number {
+            margin-top: -10px;
+        }
+    }
+    .container {
+        width: 100%;
+    }
+    .promo {
+        min-height: 100vh;
+        &__icons {
+            display: none;
+        }
+        .title {
+            width: 250px;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .button_main {
+            width: 250px;
+            height: 43px;
+            font-size: 15px;
+            margin-top: 40px;
+        }
+        &__link {
+            font-size: 13px;
+        }
+    }
+    .menu {
+        &__block {
+            width: 250px;
+            padding-left: 20px;
+        }
+        &__link {
+            font-size: 15px;
+        }
+    }
+    .offer {
+        .offer__item {
+            height: 315px;
+        }
+        .offer__inner {
+            width: 250px;
+            &_2 {
+                left: 30px;
+            }
+        }
+        .offer__title {
+            font-size: 13px;
+            line-height: 24px;
+        }
+        .offer__descr {
+            font-size: 10px;
+            line-height: 24px;
+        }
+    }
+    .consultation {
+        margin-top: 0;
+        .title_left {
+            font-size: 25px;
+            text-align: center;
+        }
+        .consultation__descr {
+            font-size: 17px;
+            text-align: center;
+        }
+        .feed-form {
+            width: 290px;
+            margin-top: 40px;
+            label {
+                width: 200px;
+                font-size: 17px;
+            }
+            input {
+                width: 230px;
+            }
+        }
+        .consultation__triggers {
+            display: flex;
+            flex-direction: column;
+            .consultation__policy {
+                span {
+                    width: 220px;
+                }
+            }
+        }
+        
+    }
+    .partners {
+
+         .partners__item {
+             margin-top: 15px;
+             img {
+                max-width: 65px;
+                max-height: 65px;
+             }
+             .partners__text {
+                 padding-left: 18px;
+                .partners__name {
+                    font-size: 20px;
+                }
+                .partners__descr {
+                    font-size: 11px;
+                }
+            }
+           
+        } 
+    }
+    footer {
+        .footer__main {
+            width: 300px;
+            .vl_m {
+                border-left: 2px solid white;
+                height: 15px;
+                position: relative;
+                margin-top: 5px;
+            }
+            .footer__title {
+                font-size: 11px;
+            }
+        }
+    }
+    .modal {
+        width: 245px;
+        &__close {
+            right: -31px;
+        }
+        input {
+            width: 170px;
+        }
+        .modal__subtitle {
+            font-size: 13px;
+        }
+        .modal__descr {
+            font-size: 10px;
+        }
+        button {
+            width: 23%;
+            font-size: 10px;
+        }
+
+    }
+}
