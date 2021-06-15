@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
             body: formData
         });
         if (!fetchResp.ok) {
-            throw new Error(`Error on ${url}, error status ${fetchResp.status}`);
+            throw new Error(`error status ${fetchResp.status}`);
         }
         return await fetchResp.text();
       };
